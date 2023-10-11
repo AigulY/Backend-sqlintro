@@ -19,10 +19,10 @@ SELECT * FROM OrderDetails
 (4) Insert 3 rows into the Products table.  Note that you will have to specify a valid SupplierID and CategoryID, 
 corresponding to rows from the Supplier and Category tables.  Paste your three SQL statements below.
 
-INSERT INTO Products (ProductID, ProductName, SupplierID, CategoryID, Unit, Price)
-       VALUES (NULL, "Milky Milk", 20, 4, "500 ml", 20),
-       		  (NULL, "Candiest Candy", 8, 8, "10 kg", 42),
-              (NULL, "Tofu Taffy", 4, 7, "40 - 100 g pkgs.", 28);
+INSERT INTO Products (ProductName, SupplierID, CategoryID, Unit, Price)
+       VALUES ("Milky Milk", 20, 4, "500 ml", 20),
+       		  ("Candiest Candy", 8, 8, "10 kg", 42),
+              ("Tofu Taffy", 4, 7, "40 - 100 g pkgs.", 28);
 
 (5) Update the two top rows of the Products Table to increase the price by 1.50. (Get SQL to do the addition for you.)  Paste your SQL statement below.
 
